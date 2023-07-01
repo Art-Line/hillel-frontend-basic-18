@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <form action="https://fom.in.ua/echo" method="get">
+
+        <fieldset>
+            <legend>user data</legend>
+            <p>
+                <label>
+                    Your name
+                    <input type="text" name="user-name" value="Sergii" autofocus>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="text" name="user-name" placeholder="Your second name">
+                </label>
+            </p>
+            <p>
+                <label for="login">your login</label>
+                <input type="text" name="user-login" id="login">
+            </p>
+            <p>
+                <label>
+                    Your phone*
+                    <input type="tel" name="tel-name" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Your email
+                    <input type="email" name="email" autocomplete="off">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Your password
+                    <input type="password" name="user-pass">
+                </label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>fruits</legend>
+            <p>
+                <label>
+                    <input type="checkbox" name="apple">
+                    apple
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="apple2">
+                    apple2
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="potato" checked>
+                    potato
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="carrot">
+                    carrot
+                </label>
+            </p>
+        </fieldset>
+        <p>
+            <label>
+                <input type="radio" name="sex" value="man" checked> man
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="sex" value="woman"> woman
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="sex" value="avar"> avar
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="sex2" value="man"> man
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="sex2" value="woman" disabled> woman
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="sex2" value="avar"> avar
+            </label>
+        </p>
+        <p>
+            <label>
+                select city
+                <select name="city">
+                    <option value="kiev">kiev</option>
+                    <option value="lviv" selected>lviv</option>
+                    <option value="odesa" disabled>odesa</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                select city
+                <select name="city2">
+                    <optgroup label="ukraine">
+                        <option value="kiev">kiev</option>
+                        <option value="lviv">lviv</option>
+                        <option value="odesa">odesa</option>
+                    </optgroup>
+                    <optgroup label="poland">
+                        <option value="warsawa">warsawa</option>
+                        <option value="krakiv">krakiv</option>
+                        <option value="lodz">lodz</option>
+                    </optgroup>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                select city
+                <select name="city3" multiple size="3">
+                    <option value="kiev">kiev</option>
+                    <option value="lviv" selected>lviv</option>
+                    <option value="odesa">odesa</option>
+                    <option value="warsawa" selected>warsawa</option>
+                    <option value="krakiv">krakiv</option>
+                    <option value="lodz">lodz</option>
+                </select>
+            </label>
+        </p>
+
+
+        <p>
+            <label>
+                mess
+                <textarea name="mess" placeholder="mess"></textarea>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                enter room nub
+                <input type="number" name="room">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                enter date
+                <input type="date" name="date-enter">
+            </label>
+        </p>
+        <p>
+            <label>
+                enter week
+                <input type="week" name="week-enter">
+            </label>
+        </p>
+        <p>
+            <label>
+                enter damonthte
+                <input type="month" name="month-enter">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                upload file
+                <input type="file" name="file">
+            </label>
+        </p>
+
+
+        <!-- <input type="submit" value="відпр мене"> -->
+        <button type="submit"> відправити</button>
+        <button type="reset">очистити</button>
+    </form>
+
+</body>
+
+</html>
