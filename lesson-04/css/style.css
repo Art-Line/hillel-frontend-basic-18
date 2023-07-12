@@ -1,0 +1,290 @@
+.body {
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* h1 {
+    font-size: 100px;
+}
+
+p {
+    font-size: 50px;
+} */
+/* 
+
+.about-us {
+    font-size: 30px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+#mammy {
+    font-size: 30px;
+} */
+
+
+/* .v {
+    font-size: 30px;
+} */
+
+
+/* селектор {
+    властивість: значеннявластивості;
+    властивість: значеннявластивості;
+    властивість: значеннявластивості;
+    властивість: значеннявластивості;
+    властивість: значеннявластивості;
+    властивість: значеннявластивості;
+}
+
+селектор {
+    властивість: значеннявластивості;
+    властивість: значеннявластивості;
+}
+
+селектор {
+    властивість: значеннявластивості;
+}
+
+селектор {
+    властивість: значеннявластивості;
+    властивість: значеннявластивості;
+}
+
+селектор {
+    властивість: значеннявластивості;
+    властивість: значеннявластивості;
+} */
+
+
+
+.box {
+    font-family: "Arial", sans-serif;
+    /* font-family: "Times New Roman", serif; */
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 50px;
+    text-align: center;
+    /* text-align: justify; */
+    /* text-transform: uppercase; */
+    letter-spacing: 10px;
+    word-spacing: 40px;
+
+}
+
+.title {
+    font-weight: normal;
+    text-align: center;
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: underline; */
+    /* text-decoration: overline underline; */
+
+    font-size: 80px;
+    /* color: lightcoral; */
+    /* color: #ff0000; */
+    /* color: rgb(255, 255, 255); */
+    /* color: rgba(34,54,64,0.5); */
+}
+
+/* .link {
+    text-decoration: none;
+}
+
+.title-03 {
+    font-size: 20px;
+}
+
+.link-03 {
+    color: red;
+    text-decoration: none;
+}
+
+.parent {
+    font-size: 30px;
+    color: red;
+}
+
+.parent-text {
+    color: green;
+    font-size: 40px;
+}
+
+.parent-02 {
+    font-size: 30px;
+    color: red;
+}
+
+.link-02 {
+    color: red;
+} */
+
+
+/* 
+
+p {
+    font-size: 20px;
+}
+
+.boy {
+    color: red;
+}
+
+#boy {
+    text-decoration: underline;
+}
+ */
+
+
+
+
+
+
+/* 
+.block {
+    font-size: 20px;
+    color: red;
+    letter-spacing: 2px;
+    font-size: 30px;
+} */
+
+
+/* 
+div {
+    color: green;
+} */
+
+/* .girl {
+    color: red;
+}
+
+.girl {
+    color: blue;
+} */
+
+/* #girl {
+    color: blue;
+} */
+
+
+
+
+
+/* .article p {
+    color: green;
+}
+
+
+
+ */
+
+/* 
+.about .par {
+
+}
+
+.about p {
+
+}
+
+.about .text .par {
+
+} */
+
+
+.rew .poem .item {      /*0 3 0*/
+    color: blue;
+}
+
+.rew {              /*0 1 0 */
+    color: red;
+}
+
+#box .elem b {      /*1 1 1*/
+    color: green;
+}
+
+.rew .poem .elem .item .bold {  /*0 5 0*/
+    color: brown;
+}
+
+section .poem #box-inset b {    /*1 1 2*/
+    color: aquamarine;
+}
+
+#box .elem span b {     /*112*/
+    color: aqua;
+}
+
+.poem div .item .bold {     /*0 3 1*/
+    color: blueviolet;
+}
+
+.rew article div span b {   /*0 1 4*/
+    color: chocolate;
+}
+
+.rew .poem div span .bold {     /*0 3 2*/
+    color: lightsalmon;
+}
+
+
+
+
+/* .list {
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style: circle inside;
+    list-style: none;
+} */
+
+
+
+.example {
+    background-color: red;
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px; */
+    /* padding: 10px 20px 30px 40px; */
+    /* padding: 10px 0 0 40px; */
+    padding: 20px;
+    /* padding: 10px 20px; */
+    /* padding: 10px 40px 100px; */
+
+
+
+
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px; */
+    margin: 20px;
+    margin: 20px 40px;
+    margin: 20px 50px 100px;
+    margin: 20px 30px 50px 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
