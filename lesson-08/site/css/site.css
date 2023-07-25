@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1220px;
+    min-width: 991px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.clearfix::after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.title {
+    color: #48555B;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.306px;
+    text-transform: uppercase;
+}
+
+.header {
+    border-bottom: 1px solid #E6E6E6;
+    padding: 21px 0 22px;
+}
+
+.logo {
+    float: left;
+    margin-top: 2px;
+}
+
+.logo img {
+    display: block;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    color: #48555B;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.091px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #00A4E5;
+}
+
+
+.story {
+    padding-top: 57px;
+    padding-bottom: 115px;
+}
+
+.story-title {
+    text-align: center;
+    padding-bottom: 68px;
+}
+
+.story-parent {
+    margin: 0 -10px;
+}
+
+.story-text {
+    width: 50%;
+    padding: 0 10px;
+    float: left;
+}
+
+.story-images {
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+    margin-top: 28px;
+}
+
+.story-text-title {
+    color: #48555B;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.188px;
+    padding-bottom: 30px;
+}
+
+.story-text-title span {
+    color: #16ACE8;
+}
+
+.story-text p {
+    color: #48555B;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.188px;
+    padding-bottom: 25px;
+}
+
+.story-images-wrap {
+    margin: 0 -10px;
+}
+
+.story-images-item-wrap {
+    width: 33.333%;
+    float: left;
+    padding: 0 10px;
+}
+
+.story-images-item {
+    color: #FFF;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0.188px;
+    height: 224px;
+    padding: 15px 14px;
+}
+
+.story-images-item-01 {
+    background-image: url('../img/story-item-01.jpg');
+}
+.story-images-item-02 {
+    background-image: url('../img/story-item-02.jpg');
+}
+.story-images-item-03 {
+    background-image: url('../img/story-item-03.jpg');
+}
+
+
+.capa {
+    padding-bottom: 70px;
+}
+
+.capa-header {
+    padding-bottom: 76px;
+}
+
+.capa-title {
+    float: left;
+}
+
+
+.capa-header-link {
+    float: right;
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    padding: 11px 24px;
+    background: #00A4E5;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.capa-list {
+    font-size: 0;
+    margin: 0 -10px;
+}
+
+.capa-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.333%;
+    padding: 0 10px 20px;
+}
+
+.capa-item-wrap {
+    border: 1px solid #E6E6E6;
+    padding: 38px 23px;
+}
+
+.capa-item-pic {
+    background-image: url('../img/capa-item.jpg');
+    width: 66px;
+    height: 75px;
+    margin-bottom: 25px;
+}
+
+.capa-item h3 {
+    color: #48555B;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.427px;
+    padding-bottom: 13px;
+    text-transform: uppercase;
+}
+
+.capa-item p {
+    color: #48555B;
+    font-size: 13px;
+    line-height: 23px; /* 176.923% */
+    letter-spacing: 0.188px;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
+
+.footer {
+    background-color: #171819;
+    padding-top: 41px;
+    padding-bottom: 47px;
+}
+
+.row {
+    margin: 0 -10px;
+}
+
+.col-4 {
+    width: 33.333%;
+    padding: 0 10px;
+    float: left;
+}
+
+.col-2 {
+    width: 16.666%;
+    padding: 0 10px;
+    float: left;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 11px;
+    letter-spacing: 0.846px;
+    margin-bottom: 19px;
+    text-transform: uppercase;
+}
+
+.footer-logo {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 15px;
+}
+
+.footer-text {
+    color: #FFF;
+    font-size: 11px;
+    line-height: 19px;
+    max-width: 250px;
+}
+
+.footer-menu {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-menu li {
+    padding-bottom: 10px;
+}
+
+.footer-menu a {
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.846px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+.soclink {
+    text-decoration: none;
+}
+
+.soclink path {
+    fill: white;
+}
