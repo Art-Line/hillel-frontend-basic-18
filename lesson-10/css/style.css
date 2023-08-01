@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    font-family: 'Hind Siliguri', 'Arial', sans-serif;
+    font-weight: 500;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1170px;
+    min-width: 991px;
+    margin: 0 auto;
+    padding: 0 15px;
+} 
+
+.products {
+    padding-top: 125px;
+    padding-bottom: 130px;
+}
+
+.products-label {
+    color: rgba(199, 37, 53, 0.6);
+    text-align: center;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 2.03px;
+    text-transform: uppercase;
+}
+
+.products-title {
+    color: #030D15;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.products-tabs {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.products-tabs li {
+    padding: 0 20px;
+}
+
+.products-tabs-btn {
+    cursor: pointer;
+    color: #030D15;
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+}
+
+.products-tabs-btn:hover {
+    color: #C72535;
+    opacity: 1;
+}
+
+.products-tabs-btn.active {
+    color: #C72535;
+    opacity: 1;
+}
+
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.products-item {
+    width: 33.333%;
+    padding: 0 15px 30px;
+}
+
+.products-wrap {
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 35px;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.products-wrap > a {
+    text-decoration: none;
+}
+
+.products-item-text {
+    color: #030D15;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    padding-bottom: 12px;
+}
+.products-item-pic {
+    text-align: center;
+}
+
+.products-item-title {
+    color: #030D15;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.products-item-price {
+    margin-bottom: 20px;
+}
+
+.products-item-price-new {
+    color: var(--b, #030D15);
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px; /* 168.75% */
+}
+
+.products-item-price-slash {
+    color: #030D15;
+    opacity: 0.5;
+    font-weight: 300;
+}
+
+.products-item-price-old {
+    color: #030D15;
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 27px;
+    text-decoration: line-through;
+}
+
+.products-add {
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    background: #247CC0;
+    padding: 16px 35px;
+    border: none;
+}
+
+.list {
+    /* display: flex;
+    padding-left: 0;
+    list-style: none; */
+}
+
+/* .list li {
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 3px solid black;
+}
+
+.list li:last-child {
+    padding-right: 0;
+    margin-right: 0;
+    border-right: 0;
+} */
+
+/* .list li:first-child {
+    color: red;
+}
+
+.list li:last-child {
+    color: red;
+} */
+
+/* .list li:nth-child(3n + 1) {
+    color: red;
+} */
+
+
+
+/* a * n + b  */
+
+/* a, b - number
+n - count */
+
+
+.about {
+    display: flex;
+    align-items: center;
+    margin: 0 -15px;
+}
+
+.about-info {
+    width: 75%;
+    padding: 0 15px;
+}
+
+.about-pic {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.about:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+
+
+.link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: blue;
+}
+
+.link svg {
+    margin-right: 8px;
+}
+
+.link:hover {
+    color: black;
+}
+
+.link:hover .link-arrow {
+    fill: black;
+}
+
+.link2 {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: blue;
+}
+
+.link2 span {
+    width: 24px;
+    height: 24px;
+    background-color: #3098F3;
+    border-radius: 50%;
+    background-image: url('../img/small-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;margin-right: 8px;
+}
+
+.link2:hover {
+    color: black;
+}
+
+.link2:hover span {
+    background-color: black;
+}
