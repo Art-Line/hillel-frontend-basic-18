@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* .box-01 {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position: relative;
+    left: 100px;
+    top: 40px;
+} */
+
+
+/* .box-02 {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.box-last {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+} */
+
+
+.item {
+    width: 200px;
+    height: 300px;
+    background-color: yellow;
+    position: relative;
+}
+
+.label {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.parent {
+    width: 300px;  
+    height: 300px;
+    background-color: red;
+    position: relative;
+
+}
+
+.middle {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+
+.kids {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+.fixed {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.static {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.static {
+    position: static;
+}
+
+.content {
+    background-color: yellow;
+}
+
+.stick {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+
+.box-09 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.box-10 {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+.box-11 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: absolute;
+    top: 130px;
+    left: 130px;
+}
+
+
+.header {
+    height: 100px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+
+.main {
+    background-color: yellow;
+}
+
+
+.modal {
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.popup {
+    width: 300px;
+    padding: 30px;
+    background-color: #ffffff;
+    margin: 50px auto 0;
+    position: relative;
+}
+
+
+.close {
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+.list > li {
+    border-bottom: 1px solid black;
+}
+
+.list > li > a {
+
+}
+
+
+
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu > li {
+    border-right: 1px solid #fff;
+    position: relative;
+}
+
+.menu > li > a {
+    font-size: 28px;
+    padding: 5px 15px;
+    background-color: orange;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.menu > li:hover > a {
+    background-color: darkgoldenrod;
+}
+
+.menu ul {
+    position: absolute;
+    left: 0;
+    top: auto;
+    list-style: none;
+    padding-left: 0;
+    display: none;
+}
+
+.menu ul a {
+    display: block;
+    background-color: green;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu ul a:hover {
+    background-color: darkgreen;
+}
+
+
+.menu > li:hover ul {
+    display: block;
+}
+
+
+
+
+.arrow {
+    border-top: 20px solid transparent;
+    /* border-right: 20px solid red; */
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid blue;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+.comment {
+    width: 300px;
+    padding: 30px;
+    background-color: orange;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.comment-arrow {
+    border-top: 20px solid orange;
+    border-left: 20px solid orange;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    left: 30px;
+    bottom: -40px;
+}
