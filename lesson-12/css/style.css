@@ -1,0 +1,327 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
+        url('../fonts/Roboto-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Roboto-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/open-sans-v35-cyrillic_latin-300.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../fonts/open-sans-v35-cyrillic_latin-300italic.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v35-cyrillic_latin-regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v35-cyrillic_latin-italic.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/open-sans-v35-cyrillic_latin-700.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/open-sans-v35-cyrillic_latin-700italic.woff2') format('woff2');
+  }
+
+.body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+
+    /* background-image: url('../');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #0B1D26; */
+
+}
+
+.first {
+    color: red;
+    font-size: 30px;
+}
+
+.first::first-line {
+    color: green;
+    font-size: 50px;
+}
+
+.first::first-letter {
+    background-color: black;
+    font-size: 200px;
+}
+
+.elem {
+    display: flex;
+}
+
+
+.elem::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+.elem::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
+
+
+
+
+.comment {
+    width: 300px;
+    padding: 30px;
+    background-color: orange;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.comment::after {
+    content: '';
+    border-top: 20px solid orange;
+    border-left: 20px solid orange;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    left: 30px;
+    bottom: -40px;
+}
+
+
+
+
+
+.link2 {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: blue;
+}
+
+.link2::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-color: #3098F3;
+    border-radius: 50%;
+    background-image: url('../img/small-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;margin-right: 8px;
+}
+
+.link2:hover {
+    color: black;
+}
+
+.link2:hover::before {
+    background-color: black;
+}
+
+.text::selection {
+    background-color: black;
+    color: red;
+}
+
+.input {
+    color: red;
+}
+
+.input::placeholder {
+    color: rgba(0,0,0,0.4);
+    color: red;
+}
+
+
+.input::placeholder {
+    color: black;
+    opacity: 0.4;
+
+    color: rgba(0,0,0,0.4);
+    opacity: 1;
+}
+
+
+
+.container {
+    max-width: 1230px;
+    min-width: 991px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.prepear {
+    display: flex;
+    margin: 0 -15px;
+    justify-content: space-between;
+}
+
+.prepear__text {
+    padding: 0 15px;
+    width: 50%;
+}
+
+.prepear__pic {
+    padding: 0 15px;
+    width: 41.667%;
+}
+
+.prepear__pic img {
+    height: 720px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.link {
+    font-size: 200px;
+}
+
+.link:hover {
+    color: red;
+}
+
+/* .link:active {
+    color: green;
+} */
+
+
+/* .link:focus {
+    color: green;
+}
+
+ */
+ .link:visited {
+    color: black;
+ }
+
+
+
+
+ /* .list p:first-child {
+    color: red;
+ }
+
+.list p:first-of-type {
+    color: red;
+}
+
+
+.list p:last-child {
+    color: green;
+}
+
+
+.list p:last-of-type {
+    color: green;
+} */
+
+
+/* .list p:nth-child(even) {
+    color: red;
+} */
+
+
+/* 
+.list p:nth-of-type(even) {
+    color: red;
+} */
+
+
+/* .list p:nth-last-child(3) {
+    color: red;
+} */
+
+/* .list p:nth-last-of-type(3) {
+    color: red;
+} */
+
+
+
+/* .menu li {
+    margin-right: 30px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+} */
+
+
+.menu li:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+
+
+
+
+.box:not(.my) {
+    color: red;
+}
+
+
+
+
+
+
+
