@@ -1,0 +1,193 @@
+html {
+    font-size: 14px;
+}
+
+p {
+
+}
+
+.name {
+
+}
+
+#id {
+
+}
+
+.name p {}
+
+#id p {}
+
+.name .second span {
+
+}
+
+* {
+
+}
+
+.menu > li {
+
+}
+
+.menu li {
+
+}
+
+.elem1:hover + .elem2 {
+    color: red;
+}
+
+
+.elem10:hover ~ .elem11 {
+    color: red;
+}
+
+.text {
+   
+}
+
+input[required] {
+ background-color: red;
+}
+
+.checkbox {
+    display: inline-flex;
+    align-items: center;
+}
+
+.checkbox__text {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.checkbox__text::before {
+    content: '';
+    width: 32px;
+    height: 32px;
+    border: 2px solid #525252;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+.checkbox__text::after {
+    content: '';
+    background-image: url('../img/check.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 18px;
+    height: 14px;
+    position: absolute;
+    left: 9px;
+    top: 10px;
+    display: none;
+}
+
+.checkbox__input:checked + .checkbox__text::after {
+    display: block;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+
+
+
+.radio__text {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.radio__text::before {
+    content: '';
+    width: 32px;
+    height: 32px;
+    border: 2px solid #525252;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.radio__input:checked + .radio__text::before {
+    background-color: #5C0790;
+    box-shadow: inset 0 0 0 7px #ffffff;
+}
+
+
+/* 
+
+px 
+
+
+%
+em 
+rem 
+vmax
+mnin */
+
+
+/* 
+
+
+.box-pr {
+    width: 300px;
+    height: 200px;
+    background-color: orange;
+}
+
+
+.child {
+    background-color: red;
+    padding-top: 10%;
+} */
+
+
+
+.box {
+    font-size: 16px;
+}
+
+
+
+
+.em {
+    font-size: 2em; 
+    /* padding-top: 2em;  */
+    /* font-size: 24px;
+    line-height: 1.2em; */
+}
+
+
+
+.text {
+    font-size: 24px;
+    line-height: 1.5em;
+}
+
+@media (max-width: 767px) {
+    .text {
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+.dad {
+    font-size: 1rem;
+    padding-top: 1.5rem;
+}
+
+

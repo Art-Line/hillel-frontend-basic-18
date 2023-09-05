@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: circle;
+    animation-duration: 5s;
+}
+
+
+@keyframes circle {
+    /* 0 {
+        background-color: red;
+        width: 200px;
+    } */
+
+    50% {
+        background-color: green;
+        width: 300px;
+    }
+}
+
+
+
+
+
+
+/* @keyframes circle {
+    from {
+        background-color: red;
+        width: 200px;
+    }
+    to {
+        background-color: green;
+        width: 300px;
+    }
+} */
+
+
+
+
+
+
+
+
+.sun {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    animation-name: sun;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    /* animation-direction: normal; */
+    /* animation-direction: reverse; */
+    animation-direction: alternate;
+    /* animation-direction: alternate-reverse; */
+    animation-delay: 5s;
+    /* animation-fill-mode: forwards; */
+    /* animation-fill-mode: backwards; */
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+
+}
+
+
+.check:checked + .sun {
+    animation-play-state: paused;
+}
+
+@keyframes sun {
+    0% {
+        background-color: green;
+    }
+    50% {
+        left: calc(50% - 100px);
+        bottom: 300px;
+    }
+    100% {
+        left: calc(100% - 200px);
+        bottom: 0;
+    }
+}
+
+
+
+.spinner {
+    display: inline-flex;
+    animation-name: spinner;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spinner {
+    100% {
+        transform: rotate(360deg);
+    }
+}
