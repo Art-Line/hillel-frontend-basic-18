@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.body {
+    min-width: 370px;
+}
+
+.container {
+    min-width: 370px;
+}
+
+
+.elem {
+    width: 40%;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.box {
+    width: 30%;
+}
+
+
+.img {
+    background-image: url('../img/sea-mobile.jpg');
+
+}
+
+@media (min-resolution: 144dpi) and (min-resolution: 1.5dppx) {
+    .img {
+        background-image: url('../img/sea-mobile@2x.jpg');
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .img {
+        background-image: url('../img/sea-tablet.jpg');
+    }
+    @media (min-resolution: 144dpi) and (min-resolution: 1.5dppx) { 
+        .img {
+            background-image: url('../img/sea-tablet@2x.jpg');
+        }
+    }
+    
+}
+
+
+
+
+
+@media (min-width: 992px) {
+    .img {
+        background-image: url('../img/sea-desctop.jpg');
+    }
+}
+
+@media (min-width: 992px) and (min-resolution: 144dpi) and (min-resolution: 1.5dppx) {
+    .img {
+        background-image: url('../img/sea-desctop@2x.jpg');
+    }
+}
+
+
+
+
+.h2-title {
+    font-size: 24px;
+}
+
+
+.h3-title {
+    font-size: 18px;
+}
+
+
+
+
+.box10 {
+    color: red;
+}
+
+p {
+    color: green;
+}
