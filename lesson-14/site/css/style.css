@@ -425,6 +425,10 @@
         background-color: #fff;
         display: none;
     }
+
+    .main-menu__list.active {
+        display: block;
+    }
     .main-menu__list li {
         padding-right: 0;
     }

@@ -171,3 +171,8 @@
         justify-self: end;
     }
 }
+
+
+.logo path:not(.logo-h) {
+    fill: black;
+}
