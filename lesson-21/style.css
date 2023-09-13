@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1000px;
+}
+
+
+@media (min-width:768px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr min-content;
+        grid-template-rows: min-content min-content;
+    }
+
+    .copy {
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+    .footer-data {
+        grid-column: 1 /-1;
+        display: flex;
+    }
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.box2 {
+    position: relative;
+}
+
+.title {
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* .box {
+    background-image: url('./img/about.jpg');
+
+    background-position: center;
+    height: 114px;
+} */
